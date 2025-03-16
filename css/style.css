@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
 }
 
 main{
@@ -15,4 +16,76 @@ main{
 .form-control:focus {
   box-shadow: 0 0 5px rgba(67, 0, 0, 0.726); /* Rojo semi-transparente */
   border-color: red; /* Ajusta el borde para que combine */
+}
+
+.color-veneno{
+    background-color: #B980C9;
+}
+
+.text-bg-success-emphasis{
+    background-color: #719F3F;
+}
+
+.border-card{
+    border: 2px solid black;
+}
+
+.bg-bulbasaur{
+    background-color: #47785f;
+    background-image: linear-gradient(160deg, #47785f 0%, #8ac6ac 100%);      
+}
+
+.bg-ivysaur{
+    background-color: #407481;
+    background-image: linear-gradient(160deg, #407481 0%, #8ac1c7 100%);
+}  
+
+.bg-venusaur{
+    background-color: #74afac;
+    background-image: linear-gradient(160deg, #74afac 0%, #629064 100%);
+}
+
+.bg-caterpie{
+    background-color: #8bc978;  
+    background-image: linear-gradient(160deg, #8bc978 0%, #fee699 100%);
+}
+
+.bg-squirtle{
+    background-color: #4692c5;
+    background-image: linear-gradient(160deg, #4692c5 0%, #8fc5d3 100%);
+}
+
+.bg-wartortle{
+    background-color: #5d7ea9;
+    background-image: linear-gradient(160deg, #5d7ea9 0%, #d0e8f0 100%);    
+}
+
+.bg-blastoise{
+    background-color: #5d7ea9;
+    background-image: linear-gradient(160deg, #5d7ea9 0%, #8ea9cf 100%);
+}
+
+.bg-butterfree{
+    background-color: #5e567a;
+    background-image: linear-gradient(160deg, #5e567a 0%, #a7c8d4 100%);
+}
+
+.bg-charmeleon{
+    background-color: #e17f6e;
+    background-image: linear-gradient(160deg, #e17f6e 0%, #fbde79 100%);
+}
+
+.bg-charmender{
+    background-color: #ebaf86;
+    background-image: linear-gradient(160deg, #ebaf86 0%, #ffe7a3 100%);    
+}
+
+.bg-pidgeot{
+    background-color: #b08d56;
+    background-image: linear-gradient(160deg, #b08d56 0%, #eee4b9 100%);
+}
+
+.bg-pikachu{
+    background-color: #0d0607;
+    background-image: linear-gradient(160deg, #0d0607 0%, #e0c16f 51%);
 }
