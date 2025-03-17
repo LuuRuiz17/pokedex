@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Pokémon">
+    <meta name="description" content="Página de Pokémon">
+    <meta name="author" content="Luciana Ruiz">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand navbar-dark" href="../index.html"><svg class="mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path> <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path> <path d="M3 12h6"></path> <path d="M15 12h6"></path> </svg> Pokédex</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPokedex" aria-controls="navbarPokedex" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarPokedex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Elementos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./error404.html">Acción 1</a></li>
+                      <li><a class="dropdown-item" href="./error404.html">Acción 2</a></li>
+                      <li><a class="dropdown-item" href="./error404.html">Acción 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="./sobreNosotros.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Pokémon..." aria-label="Search">
+                  <button class="btn btn-danger border border-light text-light" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="container text-center mt-4">
+            <article class="d-flex justify-content-center align-items-center gap-2">
+                    <p class="bg-secondary p-2 w-100 rounded-3 text-light">Charmeleon N°0005</p>
+                    <p class="bg-secondary p-3 w-100 rounded-3 text-light">Squirtle N°0007</p>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-danger py-4 text-light text-center">
+        <p>&copy; Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
