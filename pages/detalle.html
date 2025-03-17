@@ -1,61 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Pokémon">
-    <meta name="description" content="Página de Pokémon">
-    <meta name="author" content="Luciana Ruiz">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Pokémon" />
+    <meta name="description" content="Página de Pokémon" />
+    <meta name="author" content="Luciana Ruiz" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Pokédex</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-danger">
-            <div class="container-fluid">
-              <a class="navbar-brand navbar-dark" href="../index.html"><svg class="mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path> <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path> <path d="M3 12h6"></path> <path d="M15 12h6"></path> </svg> Pokédex</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPokedex" aria-controls="navbarPokedex" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarPokedex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="../index.html">Inicio</a>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-dark" href="../index.html"
+            ><svg
+              class="mb-1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              width="24"
+              height="24"
+              stroke-width="2"
+            >
+              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+              <path d="M3 12h6"></path>
+              <path d="M15 12h6"></path>
+            </svg>
+            Pokédex</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPokedex"
+            aria-controls="navbarPokedex"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPokedex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Elementos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./error404.html">Acción 1</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Elementos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./error404.html">Acción 1</a></li>
-                      <li><a class="dropdown-item" href="./error404.html">Acción 2</a></li>
-                      <li><a class="dropdown-item" href="./error404.html">Acción 3</a></li>
-                    </ul>
+                  <li>
+                    <a class="dropdown-item" href="./error404.html">Acción 2</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="./sobreNosotros.html">Sobre Nosotros</a>
+                  <li>
+                    <a class="dropdown-item" href="./error404.html">Acción 3</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar Pokémon..." aria-label="Search">
-                  <button class="btn btn-danger border border-light text-light" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  aria-current="page"
+                  href="./sobreNosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar Pokémon..."
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-danger border border-light text-light"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="container text-center mt-4">
-            <article class="d-flex justify-content-center align-items-center gap-2">
-                    <p class="bg-secondary p-2 w-100 rounded-3 text-light">Charmeleon N°0005</p>
-                    <p class="bg-secondary p-3 w-100 rounded-3 text-light">Squirtle N°0007</p>
-            </article>
-        </section>
+      <section class="container text-center mt-4">
+        <article class="d-flex justify-content-center align-items-center gap-2">
+          <p class="bg-secondary p-2 w-100 rounded-3 text-light">
+            Charmeleon N°0005
+          </p>
+          <p class="bg-secondary p-2 w-100 rounded-3 text-light">
+            Squirtle N°0007
+          </p>
+        </article>
+        <article class="container mb-3">
+            <div class="row justify-content-center">
+                <div class="col-md-4 h-100">
+                    <img src="../images/Charmender.png" alt="Charmander" class="bg-charmender rounded-2 my-3">
+                    <p class="mx-auto w-75"><b>Escupe un fuego tan caliente que funde las rocas. Causa incendios forestales sin querer.</b></p>
+                </div>
+                <div class="col-md-7">
+                    <div class="row bg-celeste text-start p-3 rounded-3">
+                        <div class="col-md-6">
+                            <div>
+                                <p class="text-light">Altura:</p>
+                                <p>0,6m</p>
+                            </div>
+                            <div>
+                                <p class="text-light">Peso:</p>
+                                <p>8,5kg</p>
+                            </div>
+                            <div>
+                                <p class="text-light">Género:</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p class="text-light">Categoría:</p>
+                                <p>Lagartija</p>
+                            </div>
+                            <div>
+                                <p class="text-light">Habilidad</p>
+                                <p>Mar llamas</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row bg-secondary p-3 rounded-3 mt-3 text-start">
+                        <div>
+                            <h5 class="text-light card-title">Tipo:</h5>
+                            <span class="badge text-bg-danger p-2 rounded-3 my-2"
+                              >Fuego</span
+                            >
+                        </div>
+                        <div>
+                            <h5 class="text-light card-title mt-2">Debilidad:</h5>
+                            <span class="badge text-bg-info p-2 rounded-3 my-2"
+                              >Agua</span
+                            >
+                            <span class="badge text-bg-marron p-2 rounded-3 my-2"
+                              >Tierra</span
+                            >
+                            <span class="badge text-bg-dark p-2 rounded-3 my-2"
+                              >Roca</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+      </section>
     </main>
     <footer class="bg-danger py-4 text-light text-center">
-        <p>&copy; Todos los derechos reservados</p>
+      <p>&copy; Todos los derechos reservados</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
