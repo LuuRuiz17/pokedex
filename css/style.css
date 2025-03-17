@@ -110,3 +110,10 @@ h1 {
 .bg-lu{
     background-color: #657770;
 }
+
+.full-width-section {
+    position: relative;
+    left: -23px;  /* Ajusta según el padding del container */
+    width: calc(100% + 45px); /* Compensa el padding del container */
+    padding: 10px;
+}
